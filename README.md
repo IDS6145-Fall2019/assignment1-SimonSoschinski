@@ -1,8 +1,7 @@
 # Assignment 1 - Designing Models and Analyzing Data (Template)
-(remove: **text between brackets to be removed**)
 
 > * Participant name: Simon Soschinski
-> * Project Title: (Title of the problem you are looking and modeling)
+> * Project Title: Dynamic Wagon Application
 
 # General Introduction
 
@@ -15,14 +14,17 @@ The second part of the assignment explores data analysis. Data analysis and visu
 
 # Part 1: Designing a Model - Subway System
 
-(remove: States your motivation clearly: why is it important / interesting to solve this problem?)
+Every day, millions of people commute through major cities using the subway system. The amount of people traveling at a given time varies vastly throughout a day, with high peaks during the "rush hours" (getting to and from work), and even between days (e.g., weekdays vs. weekends vs. holidays). While looking at the challenge of getting those people to and from the platforms itselfs is a problem of its own (the escelator problem), considering the actual act of getting people off the platform and into the trains provides another task.
+A subway train consists of one or more wagons, restricting the maximum amount of passengers it can cary at a time. While adding more wagons to a single train will increase the costs of running the train (e.g., more power is needed to move the extra weight), it also allows for a lagerer numbed of passengers that can be transported, adding to the value/benefits each train has. This, of course, expects a sufficiant number of passengers waiting.
 
-(remove: Add real-world examples, if any)
+
+
 
 (remove: Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
 
 
 ![Image of Subway City System](images/subway_model.png)
+![Image of NY Subway Rush Hour](images/nyrushhour.jpg)
 
 ## (Part 1.1): Requirements (Experimental Design) **(10%)**
 
