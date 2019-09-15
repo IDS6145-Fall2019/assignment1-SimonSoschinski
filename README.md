@@ -37,12 +37,12 @@ This model provides a solution to dynamically adjust the number of wagons on a s
 
 In order to successfully solve the problem at hand, a specification of requirements is needed.
 
-Topic: Dynamic Wagon Application to a Subway Train
-Problem: Processing the variable amount of passengers waiting for transportation on a platform.
-Question: What is the optimal number of wagons on a single train to maximize passenger transportation while minimizing costs.
-Inputs: Number of Passengers
-Output: Number of Wagons on next train
-Restrictions: Station/Platform capacity, Maximum (and minimum) number of wagons per train, 
+* Topic: Dynamic Wagon Application to a Subway Train
+* Problem: Processing the variable amount of passengers waiting for transportation on a platform.
+* Question: What is the optimal number of wagons on a single train to maximize passenger transportation while minimizing costs.
+* Inputs: Number of Passengers
+* Output: Number of Wagons on next train
+* Restrictions: Station/Platform capacity, Maximum (and minimum) number of wagons per train, 
 
 
 (remove: You should start by specifying a set of requirements. I specified a topic a Subway escalator. What exactly does that mean - practice formulating your own set of requirements and an experiment. Define problems cities face and hypothesize how a subway system could help alleviate these issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
