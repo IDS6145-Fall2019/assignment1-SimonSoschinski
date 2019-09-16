@@ -7,3 +7,13 @@ class platform:
         self.passenger = p
         self.train = t
 
+
+    def __str__(self):
+        ''' The print statement for the platform '''
+
+        return str(self.name)
+
+    def getPassenger(self):
+        ''' This returns the number of passengers waiting '''
+
+        return self.passenger
