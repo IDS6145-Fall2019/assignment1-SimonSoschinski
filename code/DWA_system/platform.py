@@ -17,3 +17,10 @@ class platform:
         ''' This returns the number of passengers waiting '''
 
         return self.passenger
+
+
+    def orderTrain(n, c):
+        ''' This sends a request for the next train '''
+
+        return None
+
