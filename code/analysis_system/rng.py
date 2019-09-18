@@ -48,23 +48,36 @@ axes[0, 4].set_xlabel("N = " + str(e))
 axes[0, 4].xaxis.set_label_position('top')
 
 
-axes[1, 0].scatter(ss.i4_sobol_generate(3, a), ss.i4_sobol_generate(3, a), color = 'black', s = 1)
+# Generating Quasi-Random numbers
+soba = ss.i4_sobol_generate(2, a)
+sobb = ss.i4_sobol_generate(2, b)
+sobc = ss.i4_sobol_generate(2, c)
+sobd = ss.i4_sobol_generate(2, d)
+sobe = ss.i4_sobol_generate(2, e)
+
+
+axes[1, 0].scatter(soba[:, 0], soba[:, 1], color = 'black', s = 1)
 axes[1, 0].set_aspect('equal', 'box')
 axes[1, 0].set_ylabel("Quasi-Random")
-axes[1, 1].scatter(ss.i4_sobol_generate(2, b), ss.i4_sobol_generate(2, b), color = 'black', s = 1)
+
+
+axes[1, 1].scatter(sobb[:, 0], sobb[:, 1], color = 'black', s = 1)
 axes[1, 1].set_aspect('equal', 'box')
 
 
-axes[1, 2].scatter(ss.i4_sobol_generate(2, c), ss.i4_sobol_generate(2, c), color = 'black', s = 1)
+axes[1, 2].scatter(sobc[:, 0], sobc[:, 1], color = 'black', s = 1)
 axes[1, 2].set_aspect('equal', 'box')
 
 
-axes[1, 3].scatter(ss.i4_sobol_generate(2, d), ss.i4_sobol_generate(2, d), color = 'black', s = 1)
+axes[1, 3].scatter(sobd[:, 0], sobd[:, 1], color = 'black', s = 1)
 axes[1, 3].set_aspect('equal', 'box')
 
 
-axes[1, 4].scatter(ss.i4_sobol_generate(2, e), ss.i4_sobol_generate(2, e), color = 'black', s = 1)
+axes[1, 4].scatter(sobe[:, 0], sobe[:, 1], color = 'black', s = 1)
 axes[1, 4].set_aspect('equal', 'box')
 
 
 plt.show()
+
+
+
