@@ -80,7 +80,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="width" value="1939" />
     <option name="height" value="2120" />
@@ -163,8 +163,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1551" height="1696" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1551" height="1696" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44253632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
