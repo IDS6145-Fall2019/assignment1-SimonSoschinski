@@ -1,13 +1,11 @@
 ## Smart City Dynamic Wagon Application Model - Object Diagram
 
-(remove: provide a description of the current model you describe below)
+The Dynamic Wagon Application Model (DWA Model) describes how variable sized trains are used to proceed/transport fluctuating amounts of passengers waiting at a subway station.
 
-(remove: use images!!!)
-(remove: I added an example image to illustrate [**how to use Markdown**](https://guides.github.com/features/mastering-markdown/), maybe consider a tool like [**Haroodpad**](http://pad.haroopress.com/user.html) )
+![Dynamic Wagon Application Object Diagram](../images/DWAObjects.png)
 
-![Dynamice Object Application Object Diagram](../images/DWAObjects.png)
+A subway station consists of one or more platforms.
 
-(remove: More decription)
-(remove: Maybe a second or third diagram to highlight a point or aspect)
+Each platform has a number of passengers waiting for transportation and a train to accomplish that.
 
-(remove: each diagram markdown file should roughly follow this template)
+A train can be of a predefined size (Small, Medium, Large or Max), allowing for a maximum amount of people riding it.
