@@ -1,21 +1,34 @@
 from passenger import passenger
 from platform import platform
 from train import train
-from wagon import wagon
+from small import small
+from medium import medium
+from large import large
+from max import max
 
 
 
 def CreatePlatform():
     ''' Creating the platform '''
-    platform = platform(n, p, t)
+    n = "Testplatform"
+    p = 200
+    s = 5
+    t = None
+    p = platform(n, p, s, t)
 
-    return platform
+    return p
 
 
 def main():
 
     # Creating the objects for the system
-    CreatePlatform()
+    p1 = CreatePlatform()
 
-    print("The platform " + platform.__str__() + "was created and has currently "
-          + str(platform.getPassenger()) + " Passengers waiting.")
+
+    print("The platform " + p1.__str__() + " was created and has currently "
+          + str(p1.getPassenger()) + " Passengers waiting.")
+
+
+
+if __name__ == "__main__":
+    main()

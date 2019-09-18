@@ -1,22 +1,18 @@
 class train:
     ''' The train class '''
 
-    def __init__(self, n, w):
+    def __init__(self, n):
         ''' Initializes the train '''
         self.name = n
-        self.wagon = w
+        self.length = 0
+        self.capacity = 0
 
 
-    def addWagon(selfself, w):
-        ''' This adds another wagon to the train'''
-
-        return None
-
-
-    def removeWagon(selfself, w):
-        ''' This removes a wagon from the train'''
+    def configureTrain(selfself, c):
+        ''' This configures the train size '''
 
         return None
+
 
 
     def getCapacity(self):
