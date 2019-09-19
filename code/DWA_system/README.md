@@ -1,15 +1,11 @@
-## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
+## Smart City Dynamic Wagon Application Model - Object Diagram
 
-(Remove: decribe the model here, use whatever diagram you need object, class, etc)
+The Dynamic Wagon Application Model (DWA Model) describes how variable sized trains are used to proceed/transport fluctuating amounts of passengers waiting at a subway station.
 
-(Remove: The code does run - you should try it. It does not do much, but has a very basic 
-simulation loop in it and key press to take a look at.)
+![Dynamic Wagon Application Object Diagram](../images/DWAObjects.png)
 
-(Remove: You kill your plants after a key timesteps, but you could always add nuterients
-from compost and add more water and tweak it based on measured constants to simulate
-a real system)
+A subway station consists of one or more platforms.
 
+Each platform has a number of passengers waiting for transportation and a train to accomplish that.
 
-Example linked diagram to help you.
-![POTS system](../../images/POTSClassDiagram.png)
-more decription
+A train can be of a predefined size (Small, Medium, Large or Max), allowing for a maximum amount of people riding it.
