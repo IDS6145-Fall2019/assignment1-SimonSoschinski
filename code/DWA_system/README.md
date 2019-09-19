@@ -2,7 +2,7 @@
 
 The Dynamic Wagon Application Model (DWA Model) describes how variable sized trains are used to proceed/transport fluctuating amounts of passengers waiting at a subway station.
 
-![Dynamic Wagon Application Object Diagram](../images/DWAObjects.png)
+![Dynamic Wagon Application Object Diagram](../../images/DWAObjects.png)
 
 A subway station consists of one or more platforms.
 
