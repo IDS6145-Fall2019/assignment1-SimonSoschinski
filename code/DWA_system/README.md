@@ -8,3 +8,8 @@ The Dynamic Wagon Application Simulation is intended to be an discrete event sim
 The platform will then send a request for a train, transmitting the current amount of passengers waiting. The train will be initialized accordingly and pick up passengers on the next timestep.
 
 The system's output is the amount of people waiting for transportation / the wait time. A good system will have only few passangers waiting with wait times not longer then a certain amout of timesteps. Furthermore, the train capacity should not be too high, as empty trains will produce higher costs. My intention is to develop a system that will provide a good throughput and also anticipate the amount of passengers that may enter the system on the next timestep, considering the type of time.
+
+For further information, see:
+* [**Object Diagram**](../../model/object_diagram.md) - provides the high level overview of components of the DWA Model
+* [**Class Diagram**](../../model/class_diagram.md) - provides details of the classes of the DWA Model
+* [**Behavior Diagram**](../../model/behavior_diagram.md) - provides details of (what are you providing details of)
