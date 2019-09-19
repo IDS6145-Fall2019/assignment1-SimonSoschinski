@@ -1,9 +1,3 @@
-## Smart City (My Problem) Simulation
+## Analysis
 
-(remove: Define what category  (or combination of categories) of simulation needed to solve this problem.)
-
-(remove: Why did you choose this simulation type?)
-
-(remove: Roughly, how would you conduct the simulation to produce the results from your specification?)
-
-(remove: images say 1000 words for you...)
+This folder contains the real world data for Part 3.1, the Trans Hudson Average Ridership Data.
