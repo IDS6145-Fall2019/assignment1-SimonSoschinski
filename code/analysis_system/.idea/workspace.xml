@@ -19,11 +19,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pseudo_distribution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="10" selection-start-line="10" selection-end-line="12" />
+            <state relative-caret-position="1220">
+              <caret line="95" column="10" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quasi_distribution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="965">
@@ -72,8 +72,8 @@
       <list>
         <option value="$PROJECT_DIR$/rng.py" />
         <option value="$PROJECT_DIR$/analysis.py" />
-        <option value="$PROJECT_DIR$/pseudo_distribution.py" />
         <option value="$PROJECT_DIR$/quasi_distribution.py" />
+        <option value="$PROJECT_DIR$/pseudo_distribution.py" />
       </list>
     </option>
   </component>
@@ -118,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.quasi_distribution">
+  <component name="RunManager" selected="Python.pseudo_distribution">
     <configuration name="analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="analysis_system" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,8 +205,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.quasi_distribution" />
         <item itemvalue="Python.pseudo_distribution" />
+        <item itemvalue="Python.quasi_distribution" />
         <item itemvalue="Python.analysis" />
         <item itemvalue="Python.rng" />
       </list>
@@ -266,22 +266,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pseudo_distribution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="10" selection-start-line="10" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quasi_distribution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="965">
           <caret line="122" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pseudo_distribution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="95" column="10" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
