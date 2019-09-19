@@ -100,7 +100,7 @@ Find a datasource that looks at part of this model - subway stations locations /
 
 The Port Authority Trans Hudson dataset shows the average ridership per month for the years 1996 to 2015. The dataset is furthermore devided into the three categories Weekday, Saturday, and Sunday. As one can see from the dataset, the average ridership varies for the said categories, showing that the implementation of different passenger generator types within the Dynamic Wagon Application System makes sense.
 
-[**Python**](code/analysis_system/README.md) was used to calculate some basic statistic values. For example, the means for the different days were:
+[**Python**](code/analysis_system/) was used to calculate some basic statistic values. For example, the means for the different days were:
 > * Weekdays: 228480
 > * Saturdays: 100339
 > * Sundays: 74069
