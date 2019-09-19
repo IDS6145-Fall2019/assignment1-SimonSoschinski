@@ -135,4 +135,6 @@ Now, choose three different distributions to plot in 1D, or as a histogram. Choo
 
 ![Pseudo Random Distributions](images/Pseudo_Distributions.png)
 
+For the pseudo-random generated distributions I chose the Normal, Uniform, and Exponential distribution. As one can see, the plots are getting ever closer towards the underlying distribution ("Bell-curve for normal, evenly distributed for uniform and the exponential curve for exponential) the larger N gets.
+
 Repeat the above using a quasi-random generator. Discuss the similarities and differences.
