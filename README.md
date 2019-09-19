@@ -75,13 +75,23 @@ You are expected to create the python files - the code should run without errors
 
 ## (Part 1.5) Specifying the Inputs to a System **(10%)**
 
-(remove the below points once ideas are satisfied)
-* Specify the independent and dependent input variables of your subway esclator model
-* Specify where the data will come from measured subset of real data (empirical) or synthetic data
-* What kind of statistics are important to capture this input data
-* How do you plan to analyze the output of your model?
-* What ways will you visualize your data - charts, and graphs you will create?
-* What clever way will you visualize your output with a useful infographic?
+* Indipendant variables
+> * Time type/random amount of passengers
+> * Platform capacity
+> * Platform length (potentially limiting the size of train)
+
+* Dependant variables
+> * Train size
+> * Passengers transported
+> * Passengers waiting
+> * Waittime (potentially)
+> * Platform status (regarding capacity)
+> * Train use of capacity
+
+* The data will be synthetic generated data following the examination/evaltuation of similar datasets (ridership data of subway stations)
+* The model will provide data that shows the optimal trainsize for specific situations (time types), allowing for a good use of capacity (no empty trains) while maximizing the throughput/minimizing the weighttime at a platform.
+* The model will provide charts that suggest the optimal train sizes for the specific situations
+* Since I'm not a very creative person, I'm still not sure about a "clever visualization" and am definitely open to suggestions.
 
 
 
