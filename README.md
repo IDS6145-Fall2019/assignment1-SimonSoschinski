@@ -117,6 +117,7 @@ This portion of the assignment looks at generating random numbers in Python and 
 
 ![RNG Plot](images/Rnd_Plot1.png)
 
+As discussed in class, the pseudo andom numbers seem to be more "random", whereas the quasi random numbers are more evenly distributed. With a sufficient large enough N, both generators fill the whole spectrum of available numbers.
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
