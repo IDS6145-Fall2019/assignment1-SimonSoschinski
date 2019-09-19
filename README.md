@@ -47,9 +47,10 @@ In order to successfully solve the problem at hand, a specification of requireme
 
 ## (Part 1.2) Subway Dynamic Wagon Application Model **(10%)**
 
-* [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components
-* [**Class Diagram**](model/class_diagram.md) - provides details of (what are you providing details of)
-* [**Behavior Diagram**](model/behavior_diagram.md) - provides details of (what are you providing details of)
+* [**Object Diagram**](object_diagram.md) - provides the high level overview of components of the DWA Model
+* [**Class Diagram**](class_diagram.md) - provides details of the classes of the DWA Model
+* [**Behavior Diagram**](behavior_diagram.md) - provides details of (what are you providing details of)
+
 
 
 ## (Part 1.3) Subway Dynamic Wagon Application Simulation **(10%)**
