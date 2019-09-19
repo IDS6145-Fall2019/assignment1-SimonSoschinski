@@ -1,15 +1,8 @@
 ## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
 
-(Remove: decribe the model here, use whatever diagram you need object, class, etc)
+The Pots system simulates the (rather short =) ) lifecycle of some vegetables in a container.
 
-(Remove: The code does run - you should try it. It does not do much, but has a very basic 
-simulation loop in it and key press to take a look at.)
+In the beginning, several vegetables of different types (classes) are being generated (bokchoy, eggplant, pepper, and stringbean). Furthermore a container is initialized with some soil and water reserves and the plants are planted in it. Over the duration of the simulation, the plants will then consume the reserves available until there is nothing left and they die.
 
-(Remove: You kill your plants after a key timesteps, but you could always add nuterients
-from compost and add more water and tweak it based on measured constants to simulate
-a real system)
-
-
-Example linked diagram to help you.
 ![POTS system](../../images/POTSClassDiagram.png)
-more decription
+

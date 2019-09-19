@@ -47,9 +47,10 @@ In order to successfully solve the problem at hand, a specification of requireme
 
 ## (Part 1.2) Subway Dynamic Wagon Application Model **(10%)**
 
-* [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components
-* [**Class Diagram**](model/class_diagram.md) - provides details of (what are you providing details of)
+* [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components of the DWA Model
+* [**Class Diagram**](model/class_diagram.md) - provides details of the classes of the DWA Model
 * [**Behavior Diagram**](model/behavior_diagram.md) - provides details of (what are you providing details of)
+
 
 
 ## (Part 1.3) Subway Dynamic Wagon Application Simulation **(10%)**
@@ -98,14 +99,16 @@ Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortabl
 Find a datasource that looks at part of this model - subway stations locations / escalator number, heights, widths / volume of passangers - ridership numbers   (*fits* - we are pretty loose here, it can be anything.)
 
 The Port Authority Trans Hudson dataset shows the average ridership per month for the years 1996 to 2015. The dataset is furthermore devided into the three categories Weekday, Saturday, and Sunday. As one can see from the dataset, the average ridership varies for the said categories, showing that the implementation of different passenger generator types within the Dynamic Wagon Application System makes sense.
-* Write up a paragraph that describes the data and how it fits into your system.
-* Load the data into Python
-* Calculate a few useful statistic on the data - keep it simple- STD, means, etc..., this is just designed * to get used to working with real data. Explain the insights you derive from these statistics.
-* Visualize the raw data - visualize a few critical aspects of the data to better describe what it is, what it is showing, and why its useful to your system.
-* Calculate and plot some summary statistics that better describe the data.
 
-(Add your plots and visualization here)
-(Put your data into the data directory)
+[**Python**](code/analysis_system/) was used to calculate some basic statistic values. For example, the means for the different days were:
+> * Weekdays: 228480
+> * Saturdays: 100339
+> * Sundays: 74069
+
+The plot for the average ridership visualizes the data.
+![Trans Hudson Average Ridership](images/TransHudsonAverage.png)
+Another interesting aspect that comes to attention is the steep dent in late 2012.
+
 
 
 ## (Part 3.2) -  Plotting 2D Random Number Generators **(15%)**
@@ -114,6 +117,7 @@ This portion of the assignment looks at generating random numbers in Python and 
 
 ![RNG Plot](images/Rnd_Plot1.png)
 
+As discussed in class, the pseudo random numbers seem to be more "actually random", whereas the quasi random numbers are more evenly distributed. With a sufficient large enough N, both generators fill the whole spectrum of available numbers.
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 

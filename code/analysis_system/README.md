@@ -1,8 +1,5 @@
-## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
+## analysis_system
 
-The analysis_system calculates provides the answers to the real data analysis part of assignment 1.
+The analysis_system contains the Python files that provide the answers to the real data analysis part of assignment 1 as well as the random number generators.
 
-
-
-![POTS system](../../images/POTSClassDiagram.png)
 
